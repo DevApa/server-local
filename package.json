@@ -2,10 +2,11 @@
   "name": "web-server",
   "version": "0.0.1",
   "description": "mini wer_server",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "dev": "nodemon src/app.js"
   },
+  "type": "module",
   "author": "caparicio",
   "license": "ISC",
   "devDependencies": {
